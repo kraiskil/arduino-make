@@ -9,6 +9,10 @@ MCU=atmega328p
 FREQ=16000000
 PRGRM=-c arduino -P/dev/ttyACM0
 
+#NH duino UNO (clone off ebay)
+MCU=atmega328p
+FREQ=16000000
+PRGRM=-c arduino -P/dev/ttyUSB0
 
 CC=avr-gcc
 CXX=avr-g++
